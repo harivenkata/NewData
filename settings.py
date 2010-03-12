@@ -4,7 +4,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 import os
-ROOT_PATH = os.path.dirname(__file__)
+ROOT_PATH = os.getcwd()
 
 ADMINS = (
     # ('Your Name', 'your_email@domain.com'),
